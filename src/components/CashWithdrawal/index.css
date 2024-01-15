@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-right: 0px;
+}
+.subcontainer {
+  background-color: #150b3e;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.profilecontainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.imagecontainer {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  padding-left: 20px;
+  margin-right: 10px;
+}
+
+.image {
+  font-size: 15px;
+  color: #7c3aed;
+}
+.name {
+  font-size: 20px;
+  color: #c4c4c4;
+}
+.balancecontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.yourbalance {
+  font-size: 20px;
+  color: #585076;
+}
+.amountcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.amount {
+  font-size: 30px;
+  color: #ffffff;
+}
+.inrupees {
+  font-size: 10px;
+  color: #585076;
+}
+.withdrawl {
+  font-size: 20px;
+  color: #d4d2db;
+}
+
+.choose {
+  font-size: 10px;
+  color: #585076;
+}
+.buttonscontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+  list-style-type: none;
+
+  padding: 0px;
+}
